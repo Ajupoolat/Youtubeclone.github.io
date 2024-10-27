@@ -1,0 +1,688 @@
+.logo-design{/*this class use for logo*/
+    width: 119px;
+    margin: 0px;
+    margin-left: -29px;
+    margin-top: 1px;
+    height: 36px;
+}
+
+*{
+    margin: 0px;
+}
+.right-area{
+    width: 10cm;
+    height: 48px;
+    position: absolute;
+    left: 70%;
+    top: 5px;
+    
+}
+.main-top-container{
+   
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 65px;
+    left: 89px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.search{/*this class use for  align  the search bar  in properly */
+    margin-left: 337px;
+    position: absolute;
+    top: 7px;
+}
+
+#search-button{/*this class use for style the search button*/
+    height: 51px;
+    margin-left: 550px;
+    top: -5px;
+    position: absolute;
+}
+.mic{
+   
+   margin: auto;/*this property helps to align the mic button in center of div  */
+   
+
+   
+}
+
+.logo{  /* logo class for design the style of logo */
+    position: absolute;
+    top: 8px;
+}
+.search-box{ /* this class style search bar */
+    width: 550px;
+    height: 42px;
+    box-sizing: border-box;
+   
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 100%;
+    line-height: 24px;
+    -webkit-box-flex: 1;
+    border: 1px solid #ccc;
+    background-image:image("");
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+
+
+
+
+   
+}
+.mic-box{ /* mic box is the backgrund box of mic icon */
+    width: 42px;
+    height: 42px;
+    background: #cccccc52;
+    margin-left: 0%;
+    position: absolute;
+    top: 2px;
+    display: flex;
+    justify-items: center;
+    border-radius: 25px;
+    left: -100px;
+   
+
+
+}
+.bell{
+   margin: auto; /* when we use margin auto the mic will be align in center of bell-box div */
+}
+.bell-box{
+    width: 42px;
+    height: 42px;
+    background: white;
+    margin-left: 208px;
+    position: absolute;
+    top: 0.5px;
+    display: flex;
+    justify-items: center;
+    border-radius: 25px;
+
+}
+.bell-box:hover{ /*this puesdo class is use for when my mouse is reach there the bell box color will change */
+    background-color: #ccc;
+}
+.create-box:hover{  /*this puesdo class is use for when my mouse is reach there the create color will change */
+    background-color: #ccc;
+}
+.create-box{
+    width: 42px;
+    height: 42px;
+    margin-left: 165px;
+    position: absolute;
+    background:#fff;
+    top: 0.5px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cre{
+    
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    left: 15px;
+    width: 7px;
+    height: 7px;
+  
+
+}
+#profile-user{  /*this class is the div box of the pro-imge class image  */
+    width: 38px;
+    height: 38px;
+    float: right;
+    margin-top: 4.5px;
+    margin-right: 48px;
+    
+   
+   
+
+    
+}
+#pro-imge{  /*this pro-imge  class is use for give the style to image */
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;  /*this border radius property is used to shape the corner of box or div  */
+}
+.nav-buttons{
+    position: fixed;   /*this property  use for when i scroll down the nav-button class are stuck in browswer and other element scroll down */
+    top: 4rem;
+    left: 55px;
+    z-index: 1;  /*this property is help for position :fixed  property .the purpose is when i sroll down the all element is go inside of nav-button class*/
+    width: 100%;
+    height: 50px;
+   background-color: #fff;
+}
+
+
+
+
+.side-caption{  /*this class  for give the positon and style */
+   
+    font-weight: lighter;
+    font-size: 10px;
+    margin-left: 17px;
+   
+
+
+}
+#home{ /*this #id use for align the position of home icon   */
+    position: absolute;
+    left: -4px;
+    top: 116px;
+}
+#shorts{/*this #id use for align the position of shorts icon   */
+    position: absolute;
+    left: -4px;
+    top: 196px;
+}
+
+
+#sub{/*this #id use for align the position of subscrption icon   */
+    position: absolute;
+    left: -16px;
+    top: 271px;
+}
+
+
+ 
+   
+
+
+#you{/*this #id use for align the position of profile icon   */
+    position: absolute;
+    left: 1px;
+    top: 345px;
+}
+
+
+
+
+
+
+.alingment{ /*this class is use like a container to move exact position and use for the 
+    size like height and width*/
+    width: 61px;
+    height: 350px;
+    position: absolute;
+    top: 4px;
+   
+   
+}
+
+.side-bar{/*this class is <aside>.this also use like container to align all icons properly*/
+    display: grid;
+    justify-content: space-between;
+    width: 66px;
+    height: 378px;
+    position: fixed;
+    
+}
+
+
+
+
+
+.frame{/*frame class is a common class for all icon <img> tag use in side  the  <aside> tage */
+   
+    margin: 17px;
+    margin-top: 14px;
+    margin-left: 15.5px;
+   
+}
+
+
+
+
+.nav{
+    margin-left: 90px;
+    margin-top: 12px;
+    
+
+   
+}
+
+
+
+
+#all{ 
+    background-color: black;
+    color: #fff;
+}
+
+.button{  /*this  class for style the nav-buttons text and the back of buttons*/
+    width: auto;
+    background-color: rgba(245, 245, 245, 0.89);
+    color: rgba(0, 0, 0, 0.847);
+    font-size: 14px;
+    font-weight: 600;
+    height: 38px;
+    min-width: 12px;
+    border-radius: 8px;
+    position: relative;
+    left: -38px;
+    margin-right: 7px;
+    border-width: inherit;
+    
+}
+
+
+div.nav-buttons button:hover{ /*this puesdo class is use for when my mouse is reach there the bell box color will change */
+    background-color:black;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container1{ /* this class use for align the images in the container1 class  */
+
+   
+    width: 92.5%;
+    height: 190px;
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    display: inline-flex;
+    gap: 18px;
+    padding-top: 1px;
+    
+}
+
+
+.container-2{ /* this class use for align the images in the container2 class  */
+
+    width: 92.5%;
+    height: 190px;
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    display: inline-flex;
+    gap: 18px;
+    top: 505px;
+    
+
+}
+.container3{ /* this class use for align the images in the container3 class  */
+
+    width: 92.5%;
+    height: 190px;
+    position: relative;
+    left: 100px;
+    top: 60px;
+    display: inline-flex;
+    gap: 18px;
+    padding-top: 1px;
+    
+}
+.container4{ /* this class use for align the images in the container4 class  */
+
+    width: 92.5%;
+    height: 190px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    display: inline-flex;
+    gap: 18px;
+    padding-top: 1px;
+}
+
+.thumbnail{ /* this class use for style the width of video images in side the container class  */
+
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border-radius: 14px;
+   
+
+
+
+}
+.image-div{ /* this class use for align the imge properly */
+
+    width: 338px;
+    height: 190px;
+   
+    
+   
+}
+
+
+
+
+
+
+.body{
+    font-family: Roboto, Arial, Helvetica, sans-serif ;
+    overflow-x:hidden; /* this property hide horizontal scrolling in this website  */
+
+   
+}
+
+
+.icon-con-1{ 
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    border-radius: 60px;
+    position: relative;
+    left: 13px;
+    top: 2px;
+    object-fit: cover;
+
+}
+.icon-container-2{
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    border-radius: 60px;
+    position: relative;
+    left: 13px;
+    top: 2px;
+    object-fit: cover;
+}
+.three-dots-container2{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 273px;
+    top: -12.5px;
+    color:  rgb(113, 108, 108);
+}
+
+.three-dots-container1{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 273px;
+    top: -12.5px;
+    color:  rgb(113, 108, 108);;
+}
+.caption-channel-container1{
+    position: relative;
+    left: 60px;
+    top: 7px;
+    font-weight: 600;
+}
+.caption-channel-container2{
+    position: relative;
+    left: 60px;
+    top: 7px;
+    font-weight: 600;
+}
+#gta-caption-ch{
+    position: relative;
+    left: 60px;
+    top: 7px;
+    font-weight: 600;
+}
+#gta-ch-name{
+    position: relative;
+    left: 60px;
+    top: 12px;
+    color: rgb(113, 108, 108);
+    font-size: 14px;
+}
+
+
+.channel-name-container1{
+    position: relative;
+    left: 60px;
+    top: 11px;
+    color: rgb(113, 108, 108);
+    font-size: 14px;
+}
+.channel-name-container2{
+    position: relative;
+    left: 60px;
+    top: 11px;
+    color: rgb(113, 108, 108);
+    font-size: 14px;
+}
+.views-time-conatainer1{
+    position: relative;
+    left: 60px;
+    color: rgb(113, 108, 108);
+    font-size: 14px;
+    top: 13px;
+}
+
+.views-time-conatainer-2{
+    position: relative;
+    left: 60px;
+    color: rgb(113, 108, 108);
+    font-size: 14px;
+    top: 13px;
+}
+#view-time-gta{
+    position: relative;
+    left: 60px;
+    color: rgb(113, 108, 108);
+    font-size: 14px;
+    top: 13px;
+}
+
+#in{
+    color: rgb(113, 108, 108);
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    font-size: 11px;
+}
+.time{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border-width: inherit;
+  
+   
+}
+
+
+.shorts-area{ /* this class is the parent class of all elements inside the class */
+
+    width: 100%;
+    height: auto;
+    margin-top: 56.5rem;
+   
+   
+}
+#shorts-text{ 
+    /* this id is use for short icon text */
+   
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: -7px;
+}
+
+#shorts-icon{
+    width: 100px;
+    height: 32px;
+    display: flex;
+    margin-left: 90px;
+    justify-content: space-between;
+    
+   
+}
+.short-container{
+
+   /* this container is use for style the the div and align the images inside the div */
+    width: 90%;
+    height: 470px;
+    margin-left: 89px;
+    display: flex;
+    justify-content: space-between;
+     margin-top: 2rem;
+}
+    
+
+
+
+
+
+
+
+
+.image-mainstyle{
+    /* this class style the images inside short-container class */
+    width: 220px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 15px;
+    
+   
+
+}
+.cap-style{
+    /* this class is use for style the font of caption of all shorts */
+font-size: 14px;
+font-weight: 700;
+
+}
+
+
+#short-caption1{  /* this class use for give the position for all short caption */
+   
+    width: auto;
+    height: 20px;
+    position: absolute;
+    top: 1365px;
+    left: 96px;
+}
+
+#short-caption2{  /* this class use for give the position for all short caption */
+    width: auto;
+    height: 20px;
+    position: absolute;
+    top: 1365px;
+    left: 325px;
+}
+
+#short-caption3{  /* this class use for give the position for all short caption */
+    width: auto;
+    height: 20px;
+    position: absolute;
+    top: 1365px;
+    left: 555px;
+}
+
+#short-caption4{  /* this class use for give the position for all short caption */
+    width: auto;
+    height: 20px;
+    position: absolute;
+    top: 1365px;
+    left: 790px;
+}
+
+#short-caption5{  /* this class use for give the position for all short caption */
+    width: auto;
+    height: 20px;
+    position: absolute;
+    top: 1365px;
+    left: 1015px;
+}
+#short-caption6{  /* this class use for give the position for all short caption */
+    width: auto;
+    height: 20px;
+    position: absolute;
+    top: 1365px;
+    left: 1245px;
+}
+
+.shorts-view{
+    /* this class for the veiwes of each shorts videos inside the image  */
+    font-size: 14px;
+    color: rgb(113, 108, 108);
+    position: absolute;
+    top: 41px;
+}
+#hr-line{  
+    /* this class is used to style the hrizontal line */
+    width: 90%;
+    height: 30px;
+    margin-left: 89px;
+    position: absolute;
+    top: 92rem;
+}
+.three-dots{
+   /* the three dot of all shorts image */
+    width: 100%;
+    height: 100%;
+   
+
+}
+.dot-div1{/* this class used for align the three dot in a proper way */
+    
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 185px;
+    bottom: -15px;
+    top: 1px;
+}
+.dot-div2{ /* this class used for align the three dot in a proper way */
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 186px;
+    bottom: -15px;
+    top: 1px;
+}
+
+.dot-div3{ /* this class used for align the three dot in a proper way */
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 184px;
+    bottom: -15px;
+    top: 1px;
+}
+
+.dot-div4{ /* this class used for align the three dot in a proper way */
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 184px;
+    bottom: -15px;
+    top: 1px;
+}
+
+.dot-div5{ /* this class used for align the three dot in a proper way */
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 186px;
+    bottom: -15px;
+    top: 1px;
+}
+
+.dot-div6{ /* this class used for align the three dot in a proper way */
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 184px;
+    top: 1px;
+}
+
